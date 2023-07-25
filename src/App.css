@@ -1,0 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.todo-app {
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px 0 0 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 14px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+span {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+button.delete-btn,
+button.done-btn {
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button.done-btn {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #666;
+}
